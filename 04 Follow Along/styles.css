@@ -1,0 +1,119 @@
+body {
+    font-family: "Lobster Two", serif;
+    margin: 0;
+}
+
+/*header stuff*/
+header {
+    background-color: rgb(198, 25, 25);
+    padding: 1rem 10px;
+}
+header span {
+    color: rgb(198, 171, 56);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/*nav stuff*/
+nav {
+    background-color: rgb(198, 25, 25);
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(198, 171, 56);
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: rgb(198, 171, 56);
+    color: rgb(198, 25, 25);
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/*main stuff*/
+main {
+    padding: 1rem 10px;
+}
+main h1 {
+    color: rgb(198, 171, 56);
+}
+
+main h2 {
+    color: rgb(198, 171, 56);
+    margin-bottom: .2rem;
+}
+main p {
+    margin: 0;
+    color: rgb(198, 171, 56)
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: rgb(198, 25, 25);
+}
+main dl dt {
+    color: rgb(198, 171, 56);
+    font-weight: 700;
+    margin-top: 1rem;
+}
+main dl dd {
+    color: rgb(198, 171, 56);
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+}
+man ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: rgb(198, 171, 56);
+}
+main em {
+    font-weight: 300;
+    color: rgb(198, 171, 56);
+}
+main address {
+    font-style: normal;
+    background-color: rgb(198, 25, 25);
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(198, 171, 56);
+    width: 200px;
+}
+main a {
+    color: rgb(198, 171, 56);
+}
+main a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+/*footer stuff*/
+footer {
+    background-color: rgb(198, 25, 25);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: rgb(198, 171, 56);
+    letter-spacing: 3px;
+}
+footer p {
+    margin: 0;
+}
