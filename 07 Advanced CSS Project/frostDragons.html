@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ethan Schaff">
+    <meta name="description" content="Learn about a few of the different dragons of the world">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>The Dragopedia</title>
+</head>
+<body>
+    <header>
+        <span>The Dragon Intellegence Berau</span>
+    </header>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="europeanDragons.html">European Dragons</a>
+            </li>
+            <li>
+                <a href="dragonTypes.html">Dragon types</a>
+            </li>
+            <li>
+                <a href="frostDragons.html" class="active">Frost Dragons</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Order a Guidebook</h1>
+        
+        <form method="get" class="myForm" action="wyverns.html">
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="435-555-4234"></label>
+            <label>Email<input type="email" name="email" placeholder="example@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Type of Cover</legend>
+            <label><input type="radio" name="method" value="Hardcover" required>Hardcover(design on cover)</label>
+            <label><input type="radio" name="method" value="Paperback">Paperback(design on front and back)</label>
+            <label><input type="radio" name="method" value="Leather">Leather(dragon silouette on cover)</label>
+            </fieldset>
+
+            <fieldset>
+            <legend>Guidebook Selection</legend>
+            <label><input type="checkbox" name="door" value="chosen">European Dragons</label>
+            <label><input type="checkbox" name="driveway" value="chosen">Knuckers</label>
+            <label><input type="checkbox" name="fence gate" value="chosen">Frost Dragons</label>
+            <label><input type="checkbox" name="garage" value="chosen">Wyverns</label>
+            <label><input type="checkbox" name="driveway" value="chosen">Tibetan Dragons</label>
+            <label><input type="checkbox" name="fence gate" value="chosen">Lindworms</label>
+            <label><input type="checkbox" name="garage" value="chosen">Asian Lung Dragons</label>
+
+            <label> Extras
+            <select name="time" >  
+                <option value="none">None</option>
+                <option value="Stickers">Stickers</option>
+                <option value="Poster">Poster</option>
+                <option value="Both">Both Stickers and Poster</option>
+            </select>
+            </label>
+            </fieldset>
+
+            <label> Comments
+                <textarea name="comment" placeholder="If you have anything to say type it here"></textarea>
+            </label>
+
+            <input type="submit" value="Send order to our hoard">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 &bull; Ethan Schaff &bull; Web Dev</p>
+    </footer>
+</body>
+</html>

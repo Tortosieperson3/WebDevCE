@@ -1,0 +1,219 @@
+{box-sizing: border-box;}
+
+/*font*/
+body {
+    font-family: "Lobster Two", serif;
+    margin: 0;
+    background-color: rgb(198, 25, 25);
+}
+/*header stuff*/
+header {
+    font-family: none;
+    background-color: rgb(198, 25, 25);
+    color: rgb(255, 255, 255)
+}
+header img {
+    display: flex;
+}
+/*dragon types heading stuff*/
+header h1 {
+    color: rgb(198, 171, 56)
+}
+/*nav stuff*/
+nav {
+    background-color: rgb(198, 25, 25);
+    padding: 1rem;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0 48px;
+}
+
+nav li a:hover {
+    color: rgb(198, 171, 56);
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a.active {
+    color: rgb(198, 171, 56);
+}
+/*dragon types nav stuff*/
+nav dt a:hover {
+    color: rgb(198, 171, 56);
+}
+nav dt {
+    margin: 0;
+    padding: 0 10px;
+}
+
+/*screen size*/
+
+@media only screen and (max-width: 800px) {
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: .8rem;
+    text-decoration: none;
+    border: solid 1px rgb(198, 171, 56);
+    font-weight: 700;
+}
+
+nav .active a {
+    background-color: rgb(198, 171, 5);
+    color: rgb(198, 171, 56);
+    background-image: linear-gradient(to bottom, rgb(198, 171, 56), rgb(198, 171, 5));
+}
+
+}
+
+@media only screen and (min-width: 801px) {
+
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+}
+
+/*main stuff*/
+main a:hover {
+    color: rgb(198, 171, 56);
+}
+main h1 {
+    background-color: rgb(198, 25, 25);
+    color: rgb(198, 171, 56);
+    padding: .5rem;
+    margin: 0;
+}
+main p {
+    background-color: rgb(198, 25, 25);
+    color: rgb(198, 171, 5);
+    margin: 0;
+    padding: .5rem;
+}
+main ul {
+    background-color: rgb(198, 25, 25);
+    color: rgb(198, 171, 56);
+    margin: 0;
+}
+main {
+    background-color: rgb(198, 25, 25);
+    color: rgb(198, 171, 56);
+    margin: 0;
+    padding: .5rem;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+main address a:hover {
+    color: rgb(255, 255, 255);
+}
+main ul {
+    list-style-type: square;
+    padding: 1.5rem;
+    margin: 0;
+}
+.placeholder {
+    width: 100%;
+    height: auto;
+}
+.dragon img:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/*western dragon main stuff*/
+main ol {
+    list-style-type: georgian;
+    margin: 0;
+    padding: 0 10px;
+}
+/*footer stuff*/
+footer {
+    background-color: rgb(198, 25, 25);
+    color: rgb(198, 171, 56);
+    clear:  both;
+}
+footer a:hover {
+    color: rgb(198, 171, 56);
+}
+figure.supercalifragilisticexpialidocious {
+    float: right;
+    height: auto;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: rgb(198, 171, 56);
+}
+/*form thing*/
+.myForm fieldset {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+
+}
+.myForm label {
+    margin: .5rem;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+/*all*/
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
